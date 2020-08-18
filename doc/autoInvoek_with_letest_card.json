@@ -1,0 +1,334 @@
+{
+    "type": "AdaptiveCard",
+    "id": "427FB9DB-E2E6-4A26-B684-454D6B62A731",
+    "correlationId": "510e4e5b-c6e9-43e6-8354-1ec8eb6f075e",
+    "messageCardContext": {
+        "correlationId": "510e4e5b-c6e9-43e6-8354-1ec8eb6f075e",
+        "messageCardSource": "AdaptiveCard",
+        "messageCardStampingSource": "TEE",
+        "isBodyHidden": false,
+        "stampingCorrelationVector": "RReqGO0+PU2OE/Y4xffiZw.1"
+    },
+    "version": "1.0",
+    "padding": "None",
+    "body": [
+        {
+            "items": [
+                {
+                    "columns": [
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "size": "Small",
+                                    "url": "https://amdesigner.azurewebsites.net/samples/assets/PlaceHolder_Person.png",
+                                    "id": "0f1bd522-ef75-3f9f-14c4-4ef9e234721f",
+                                    "type": "Image"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "e6d9a897-f9e4-067b-52da-c9900c83e886",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "text": "DKS Group",
+                                    "wrap": true,
+                                    "id": "2d13ea41-2866-7130-44de-4a18d3093cf7",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Private Group",
+                                    "wrap": true,
+                                    "id": "05758164-9a44-9484-5ee6-c91f248993d5",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center",
+                            "padding": "None",
+                            "id": "b48b0ab2-4c13-5b59-88eb-2fc97c943d39",
+                            "type": "Column"
+                        }
+                    ],
+                    "padding": "None",
+                    "id": "fedae9ca-c2d5-5dd2-4a59-176681872822",
+                    "type": "ColumnSet"
+                }
+            ],
+            "style": "emphasis",
+            "padding": "Small",
+            "id": "34eadec9-ac74-5c77-3e62-875a8b9c5f3c",
+            "spacing": "None",
+            "type": "Container"
+        },
+        {
+            "items": [
+                {
+                    "size": "Large",
+                    "text": "Hey, You got 3 new connection request(s)",
+                    "weight": "Bolder",
+                    "wrap": true,
+                    "id": "50c52578-8e51-1512-aeb1-5a714e8b460b",
+                    "type": "TextBlock"
+                }
+            ],
+            "padding": "Default",
+            "id": "0bdaded9-7b2d-fb8b-c298-ac819fd31288",
+            "spacing": "None",
+            "separator": true,
+            "type": "Container"
+        },
+        {
+            "items": [
+                {
+                    "size": "Small",
+                    "text": "Select the requests you want to approve or decline.",
+                    "wrap": true,
+                    "id": "3f5e8bb4-217c-ab02-0c24-097aa57151eb",
+                    "spacing": "None",
+                    "type": "TextBlock"
+                },
+                {
+                    "columns": [
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "size": "Small",
+                                    "style": "Person",
+                                    "url": "https://amdesigner.azurewebsites.net/samples/assets/Miguel_Garcia.png",
+                                    "id": "dbb6d6c-92de-3847-c52c-19b50a2b1e35",
+                                    "spacing": "None",
+                                    "type": "Image"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "5be4e78f-0516-88b9-3c8a-aaa4a363c891",
+                            "spacing": "None",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "text": "Miguel Garcia",
+                                    "wrap": true,
+                                    "id": "6a77917-41b7-7959-2d35-bb5f1bfc1a97",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Program Manager",
+                                    "wrap": true,
+                                    "id": "38552ef-2a05-e130-d308-456843e0e74d",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Oslo-O365",
+                                    "wrap": true,
+                                    "id": "a176e77-f0ac-15dc-377a-ed3f80302fa6",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "bc3069ca-e365-0acb-825a-d0088fde0017",
+                            "spacing": "Small",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "color": "Good",
+                                    "size": "Medium",
+                                    "text": "*Approved*",
+                                    "weight": "Bolder",
+                                    "wrap": true,
+                                    "id": "556ab251-1490-e520-9d4f-73bfe328544d",
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "padding": "None",
+                            "type": "Column"
+                        }
+                    ],
+                    "padding": "None",
+                    "id": "a1e100d4-32eb-23a2-1efe-ee427dabbc61",
+                    "type": "ColumnSet",
+                    "style": "default"
+                },
+                {
+                    "columns": [
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "size": "Small",
+                                    "style": "Person",
+                                    "url": "https://amdesigner.azurewebsites.net/samples/assets/Daisy_Phillips.png",
+                                    "id": "dbb6d6c-92de-3847-c52c-19b50a2b1e35",
+                                    "spacing": "None",
+                                    "type": "Image"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "5be4e78f-0516-88b9-3c8a-aaa4a363c891",
+                            "spacing": "None",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "text": "Daisy Phillips",
+                                    "wrap": true,
+                                    "id": "6a77917-41b7-7959-2d35-bb5f1bfc1a97",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Program  Manager II",
+                                    "wrap": true,
+                                    "id": "38552ef-2a05-e130-d308-456843e0e74d",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Oslo-O365",
+                                    "wrap": true,
+                                    "id": "a176e77-f0ac-15dc-377a-ed3f80302fa6",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "bc3069ca-e365-0acb-825a-d0088fde0017",
+                            "spacing": "Small",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "color": "Good",
+                                    "size": "Medium",
+                                    "text": "*Approved*",
+                                    "weight": "Bolder",
+                                    "wrap": true,
+                                    "id": "aaaccf0a-e8f5-4e7c-d4b1-b7cb22e60bcb",
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "padding": "None",
+                            "type": "Column"
+                        }
+                    ],
+                    "padding": "None",
+                    "id": "a1e100d4-32eb-23a2-1efe-ee427dabbc61",
+                    "type": "ColumnSet"
+                },
+                {
+                    "columns": [
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "size": "Small",
+                                    "style": "Person",
+                                    "url": "https://amdesigner.azurewebsites.net/samples/assets/Kat_Larsson.png",
+                                    "id": "dbb6d6c-92de-3847-c52c-19b50a2b1e35",
+                                    "spacing": "None",
+                                    "type": "Image"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "5be4e78f-0516-88b9-3c8a-aaa4a363c891",
+                            "spacing": "None",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "text": "Kat Larsson",
+                                    "wrap": true,
+                                    "id": "6a77917-41b7-7959-2d35-bb5f1bfc1a97",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Senior Design Manager",
+                                    "wrap": true,
+                                    "id": "38552ef-2a05-e130-d308-456843e0e74d",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Redmond B-3",
+                                    "wrap": true,
+                                    "id": "a176e77-f0ac-15dc-377a-ed3f80302fa6",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "bc3069ca-e365-0acb-825a-d0088fde0017",
+                            "spacing": "Small",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "color": "Attention",
+                                    "size": "Medium",
+                                    "text": "*Declined*",
+                                    "weight": "Bolder",
+                                    "wrap": true,
+                                    "id": "54ec87cb-413d-9a8a-d8f1-634ed2e3c6de",
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "padding": "None",
+                            "type": "Column"
+                        }
+                    ],
+                    "padding": "None",
+                    "id": "a1e100d4-32eb-23a2-1efe-ee427dabbc61",
+                    "type": "ColumnSet"
+                }
+            ],
+            "padding": "Default",
+            "id": "47295af6-a6b8-fd4f-f90f-018d01f8e130",
+            "spacing": "None",
+            "separator": true,
+            "type": "Container"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "autoInvokeAction": {
+        "hideCardOnInvoke": false,
+        "method": "POST",
+        "url": "https://card-update.free.beeceptor.com",
+        "body": "[{\"data\":\"some_data_to_identify_card_and_user\"}]",
+        "type": "Action.Http",
+        "isPrimary": false,
+        "id": "af43671d-85aa-472a-b31e-1ffcc338f96c"
+    }
+}

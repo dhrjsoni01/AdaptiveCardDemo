@@ -1,0 +1,374 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "padding": "None",
+    "body": [
+        {
+            "items": [
+                {
+                    "columns": [
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "size": "Small",
+                                    "url": "https://amdesigner.azurewebsites.net/samples/assets/PlaceHolder_Person.png",
+                                    "id": "0f1bd522-ef75-3f9f-14c4-4ef9e234721f",
+                                    "type": "Image"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "e6d9a897-f9e4-067b-52da-c9900c83e886",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "text": "DKS Group",
+                                    "wrap": true,
+                                    "id": "2d13ea41-2866-7130-44de-4a18d3093cf7",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Private Group",
+                                    "wrap": true,
+                                    "id": "05758164-9a44-9484-5ee6-c91f248993d5",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center",
+                            "padding": "None",
+                            "id": "b48b0ab2-4c13-5b59-88eb-2fc97c943d39",
+                            "type": "Column"
+                        }
+                    ],
+                    "padding": "None",
+                    "id": "fedae9ca-c2d5-5dd2-4a59-176681872822",
+                    "type": "ColumnSet"
+                }
+            ],
+            "style": "emphasis",
+            "padding": "Small",
+            "id": "34eadec9-ac74-5c77-3e62-875a8b9c5f3c",
+            "spacing": "None",
+            "type": "Container"
+        },
+        {
+            "items": [
+                {
+                    "size": "Large",
+                    "text": "Hey, You got 3 new connection request(s)",
+                    "weight": "Bolder",
+                    "wrap": true,
+                    "id": "50c52578-8e51-1512-aeb1-5a714e8b460b",
+                    "type": "TextBlock"
+                }
+            ],
+            "padding": "Default",
+            "id": "0bdaded9-7b2d-fb8b-c298-ac819fd31288",
+            "spacing": "None",
+            "separator": true,
+            "type": "Container"
+        },
+        {
+            "items": [
+                {
+                    "size": "Small",
+                    "text": "Select the requests you want to approve or decline.",
+                    "wrap": true,
+                    "id": "3f5e8bb4-217c-ab02-0c24-097aa57151eb",
+                    "spacing": "None",
+                    "type": "TextBlock"
+                },
+                {
+                    "columns": [
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "size": "Small",
+                                    "style": "Person",
+                                    "url": "https://amdesigner.azurewebsites.net/samples/assets/Miguel_Garcia.png",
+                                    "id": "dbb6d6c-92de-3847-c52c-19b50a2b1e35",
+                                    "spacing": "None",
+                                    "type": "Image"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "5be4e78f-0516-88b9-3c8a-aaa4a363c891",
+                            "spacing": "None",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "text": "Miguel Garcia",
+                                    "wrap": true,
+                                    "id": "6a77917-41b7-7959-2d35-bb5f1bfc1a97",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Program Manager",
+                                    "wrap": true,
+                                    "id": "38552ef-2a05-e130-d308-456843e0e74d",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Oslo-O365",
+                                    "wrap": true,
+                                    "id": "a176e77-f0ac-15dc-377a-ed3f80302fa6",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "bc3069ca-e365-0acb-825a-d0088fde0017",
+                            "spacing": "Small",
+                            "type": "Column"
+                        },
+                        {
+                            "type": "Column",
+                            "padding": "None",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "id": "556ab251-1490-e520-9d4f-73bfe328544d",
+                                    "text": "*Approved*",
+                                    "wrap": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Good"
+                                }
+                            ]
+                        }
+                    ],
+                    "padding": "None",
+                    "id": "a1e100d4-32eb-23a2-1efe-ee427dabbc61",
+                    "type": "ColumnSet",
+                    "style": "default"
+                },
+                {
+                    "columns": [
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "title": " ",
+                                    "value": "false",
+                                    "id": "REQ0001002",
+                                    "type": "Input.Toggle",
+                                    "wrap": false
+                                }
+                            ],
+                            "padding": {
+                                "top": "Small",
+                                "bottom": "None",
+                                "left": "None",
+                                "right": "None"
+                            },
+                            "id": "9a761dbd-9793-09ce-eb6e-0009f96713c0",
+                            "spacing": "None",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "size": "Small",
+                                    "style": "Person",
+                                    "url": "https://amdesigner.azurewebsites.net/samples/assets/Daisy_Phillips.png",
+                                    "id": "dbb6d6c-92de-3847-c52c-19b50a2b1e35",
+                                    "spacing": "None",
+                                    "type": "Image"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "5be4e78f-0516-88b9-3c8a-aaa4a363c891",
+                            "spacing": "None",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "text": "Daisy Phillips",
+                                    "wrap": true,
+                                    "id": "6a77917-41b7-7959-2d35-bb5f1bfc1a97",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Program  Manager II",
+                                    "wrap": true,
+                                    "id": "38552ef-2a05-e130-d308-456843e0e74d",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Oslo-O365",
+                                    "wrap": true,
+                                    "id": "a176e77-f0ac-15dc-377a-ed3f80302fa6",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "size": "Small",
+                                    "text": "*\"Please add me. I am new to the team.\"*",
+                                    "wrap": true,
+                                    "id": "9d1870b-42a3-b0d9-85bd-0c1275085158",
+                                    "spacing": "Small",
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "bc3069ca-e365-0acb-825a-d0088fde0017",
+                            "spacing": "Small",
+                            "type": "Column"
+                        }
+                    ],
+                    "padding": "None",
+                    "id": "a1e100d4-32eb-23a2-1efe-ee427dabbc61",
+                    "type": "ColumnSet"
+                },
+                {
+                    "columns": [
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "title": " ",
+                                    "value": "false",
+                                    "id": "REQ0001003",
+                                    "type": "Input.Toggle",
+                                    "wrap": false
+                                }
+                            ],
+                            "padding": {
+                                "top": "Small",
+                                "bottom": "None",
+                                "left": "None",
+                                "right": "None"
+                            },
+                            "id": "9a761dbd-9793-09ce-eb6e-0009f96713c0",
+                            "spacing": "None",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "size": "Small",
+                                    "style": "Person",
+                                    "url": "https://amdesigner.azurewebsites.net/samples/assets/Kat_Larsson.png",
+                                    "id": "dbb6d6c-92de-3847-c52c-19b50a2b1e35",
+                                    "spacing": "None",
+                                    "type": "Image"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "5be4e78f-0516-88b9-3c8a-aaa4a363c891",
+                            "spacing": "None",
+                            "type": "Column"
+                        },
+                        {
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "text": "Kat Larsson",
+                                    "wrap": true,
+                                    "id": "6a77917-41b7-7959-2d35-bb5f1bfc1a97",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Senior Design Manager",
+                                    "wrap": true,
+                                    "id": "38552ef-2a05-e130-d308-456843e0e74d",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "color": "Light",
+                                    "size": "Small",
+                                    "text": "Redmond B-3",
+                                    "wrap": true,
+                                    "id": "a176e77-f0ac-15dc-377a-ed3f80302fa6",
+                                    "spacing": "None",
+                                    "type": "TextBlock"
+                                },
+                                {
+                                    "size": "Small",
+                                    "text": "*\"Please add me to this group. I will be working with the development and design team from now on and being part of this group would be helpful\"*",
+                                    "wrap": true,
+                                    "id": "9d1870b-42a3-b0d9-85bd-0c1275085158",
+                                    "spacing": "Small",
+                                    "type": "TextBlock"
+                                }
+                            ],
+                            "padding": "None",
+                            "id": "bc3069ca-e365-0acb-825a-d0088fde0017",
+                            "spacing": "Small",
+                            "type": "Column"
+                        }
+                    ],
+                    "padding": "None",
+                    "id": "a1e100d4-32eb-23a2-1efe-ee427dabbc61",
+                    "type": "ColumnSet"
+                }
+            ],
+            "padding": "Default",
+            "id": "47295af6-a6b8-fd4f-f90f-018d01f8e130",
+            "spacing": "None",
+            "separator": true,
+            "type": "Container"
+        },
+        {
+            "items": [
+                {
+                    "actions": [
+                        {
+                            "method": "POST",
+                            "url": "https://request-demo-approve.free.beeceptor.com",
+                            "body": "{REQ0001001: {{REQ0001001.value}}, REQ0001002: {{REQ0001002.value}}, REQ0001003: {{REQ0001003.value}}}",
+                            "title": "Approve Selected",
+                            "isPrimary": true,
+                            "type": "Action.Http",
+                            "id": "129b915a-56c1-5681-1b0f-fff43a9dfa26",
+                            "style": "positive"
+                        },
+                        {
+                            "method": "POST",
+                            "url": "https://request-demo-decline.free.beeceptor.com",
+                            "body": "{REQ0001001: {{REQ0001001.value}}, REQ0001002: {{REQ0001002.value}}, REQ0001003: {{REQ0001003.value}}}",
+                            "title": "Decline Selected",
+                            "type": "Action.Http",
+                            "id": "e0251f39-0acc-f1cc-ef4e-afc88ac95cd7"
+                        }
+                    ],
+                    "id": "7303cf8a-57f2-a7a1-1973-01f0168f424f",
+                    "type": "ActionSet"
+                }
+            ],
+            "padding": "Default",
+            "id": "f6bcf5c7-a0df-dc07-6834-86bba6c0c652",
+            "spacing": "None",
+            "type": "Container"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}

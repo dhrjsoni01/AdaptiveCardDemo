@@ -1,0 +1,17 @@
+{
+    "type": "Container",
+    "id": "47295af6-a6b8-fd4f-f90f-018d01f8e130",
+    "padding": "Default",
+    "spacing": "None",
+    "items": [
+        {
+            "type": "TextBlock",
+            "id": "3f5e8bb4-217c-ab02-0c24-097aa57151eb",
+            "text": "Select the requests you want to approve or decline.",
+            "wrap": true,
+            "spacing": "None",
+            "size": "Small"
+        }
+    ],
+    "separator": true
+}

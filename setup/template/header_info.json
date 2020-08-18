@@ -1,0 +1,17 @@
+{
+    "type": "Container",
+    "id": "0bdaded9-7b2d-fb8b-c298-ac819fd31288",
+    "padding": "Default",
+    "spacing": "None",
+    "items": [
+        {
+            "type": "TextBlock",
+            "id": "50c52578-8e51-1512-aeb1-5a714e8b460b",
+            "text": "Elvia Atkins would like to add 3 members to your group.",
+            "wrap": true,
+            "size": "Large",
+            "weight": "Bolder"
+        }
+    ],
+    "separator": true
+}

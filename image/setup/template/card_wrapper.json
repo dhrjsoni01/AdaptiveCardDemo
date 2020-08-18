@@ -1,0 +1,9 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "padding": "None",
+    "body": [],
+    "@type": "AdaptiveCard",
+    "@context": "http://schema.org/extensions"
+}

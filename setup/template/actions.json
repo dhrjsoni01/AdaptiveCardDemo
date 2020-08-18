@@ -1,0 +1,32 @@
+{
+    "type": "Container",
+    "id": "f6bcf5c7-a0df-dc07-6834-86bba6c0c652",
+    "padding": "Default",
+    "spacing": "None",
+    "items": [
+        {
+            "type": "ActionSet",
+            "id": "7303cf8a-57f2-a7a1-1973-01f0168f424f",
+            "actions": [
+                {
+                    "type": "Action.Http",
+                    "id": "129b915a-56c1-5681-1b0f-fff43a9dfa26",
+                    "title": "Approve Selected",
+                    "method": "POST",
+                    "url": "https://messagecardplaygroundfn.azurewebsites.net/api/HttpPost?code=zJaYHdG4dZdPK0GTymwYzpaCtcPAPec8fTvc2flJRvahwigYWg3p0A==&message=The Members are added successfully",
+                    "body": "{Member1: {{Select1.value}}, Member2: {{Select2.value}},\nMember3: {{Select3.value}}}",
+                    "isPrimary": true,
+                    "style": "positive"
+                },
+                {
+                    "type": "Action.Http",
+                    "id": "e0251f39-0acc-f1cc-ef4e-afc88ac95cd7",
+                    "title": "Decline Selected",
+                    "method": "POST",
+                    "url": "https://messagecardplaygroundfn.azurewebsites.net/api/HttpPost?code=zJaYHdG4dZdPK0GTymwYzpaCtcPAPec8fTvc2flJRvahwigYWg3p0A==&message=The requests are declined",
+                    "body": "{Member1: {{Select1.value}}, Member2: {{Select2.value}},\nMember3: {{Select3.value}}}"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+﻿req_id,name,title,org,img_url,message,request_to,status
+REQ0001001,Miguel Garcia,Program Manager,Oslo-O365,https://amdesigner.azurewebsites.net/samples/assets/Miguel_Garcia.png,Please add me. I am new to the team.,dheeraj_soni@abc.com,Pending
+REQ0001002,Daisy Phillips,Program  Manager II,Oslo-O365,https://amdesigner.azurewebsites.net/samples/assets/Daisy_Phillips.png,Please add me. I am new to the team.,dheeraj_soni@abc.com,Pending
+REQ0001003,Kat Larsson,Senior Design Manager,Redmond B-3,https://amdesigner.azurewebsites.net/samples/assets/Kat_Larsson.png,Please add me to this group. I will be working with the development and design team from now on and being part of this group would be helpful,dheeraj_soni@abc.com,Pending

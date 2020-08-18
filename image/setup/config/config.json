@@ -1,0 +1,8 @@
+{
+  "originator_id": "Originator id",
+  "approve_url": "https://request-demo-approve.free.beeceptor.com",
+  "decline_url": "https://request-demo-decline.free.beeceptor.com",
+  "subject": "DKS Group: New connection Request(s)",
+  "mail": "sender_email@address",
+  "password": "sender@password"
+}
